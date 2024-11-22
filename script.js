@@ -1,19 +1,14 @@
+document.getElementById('loginForm').addEventListener('submit', function(event) {  
+  event.preventDefault();   
 
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-    
-  const hardcodedUsername = 'admin123';
-  const hardcodedPassword = '12345';
+  const username = document.getElementById('username').value;  
+  const password = document.getElementById('password').value;  
 
-  const usernameInput = document.getElementById('username').value;
-  const passwordInput = document.getElementById('password').value;
-
-  if (usernameInput === hardcodedUsername && passwordInput === hardcodedPassword) {
-    
-    alert('Login berhasil! Anda akan diarahkan ke halaman menu.');
-    window.location.href = 'menu.html';
-  } else {
+  
+  if (username === "admin123" && password === "12345") {  
       
-    document.getElementById('error-message').style.display = 'block';
-  }
+      window.location.href = "menu.html";  
+  } else {  
+      alert("Username atau password salah!");  
+  }  
 });
