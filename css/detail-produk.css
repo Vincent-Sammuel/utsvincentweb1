@@ -1,0 +1,53 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: rgba(0, 51, 102, 0.9);
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Services Section */
+  .services {
+    background-color: #ffffff;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    color: rgba(0, 51, 102, 0.9);
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: rgba(0, 51, 102, 0.9);
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: rgba(0, 51, 102, 0.9);
+    color: white;
+    padding: 20px 10px;
+  }
+  
